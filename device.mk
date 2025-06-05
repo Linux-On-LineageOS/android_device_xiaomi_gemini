@@ -88,3 +88,4 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
+$(call inherit-product, vendor/lindroid/lindroid.mk)
